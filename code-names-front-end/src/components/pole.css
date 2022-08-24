@@ -1,0 +1,20 @@
+.phone {
+    transform: scaleX(-1);
+    transform: rotate(45deg);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 5
+
+}
+.phone {
+
+}
+
+@keyframes example {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-90deg);
+    }
+}
